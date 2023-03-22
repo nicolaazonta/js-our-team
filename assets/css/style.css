@@ -1,0 +1,6 @@
+.card {
+    color: limegreen;
+}
+.card-img {
+    filter: opacity(50%);
+}
