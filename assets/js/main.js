@@ -77,9 +77,9 @@ for (let i = 0; i < profilesArray.length; i++) {
     let markup = ` 
     <div class="col-4 my-2">   
         <div class="card bg-dark p-2 "><!-- /.card -->
-            <img class="card-img" src="/assets/img/${profilesArray[i].pic}" alt="">
+            <img class="card-img" src="./assets/img/${profilesArray[i].pic}" alt="">
 
-            <div class="card-img-overlay d-flex ">
+            <div class="card-img-overlay d-flex flex-column">
                 <h3 class="card-title align-self-end">${profilesArray[i].name}</h3>
                 <h8 class="card-subtitle align-self-end">${profilesArray[i].mansion}</h8>
             </div>            
