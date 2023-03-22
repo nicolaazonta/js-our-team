@@ -79,9 +79,9 @@ for (let i = 0; i < profilesArray.length; i++) {
         <div class="card bg-dark p-2 "><!-- /.card -->
             <img class="card-img" src="./assets/img/${profilesArray[i].pic}" alt="">
 
-            <div class="card-img-overlay d-flex flex-column">
-                <h3 class="card-title align-self-end">${profilesArray[i].name}</h3>
-                <h8 class="card-subtitle align-self-end">${profilesArray[i].mansion}</h8>
+            <div class="card-img-overlay d-flex flex-column justify-content-between">
+                <h3 class="card-title">${profilesArray[i].name}</h3>
+                <h8 class="card-subtitle">${profilesArray[i].mansion}</h8>
             </div>            
         </div>
     </div>`;
