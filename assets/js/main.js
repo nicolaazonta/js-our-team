@@ -57,4 +57,13 @@ const profilesArray =[
 ]
 //console.log(profilesArray[0].name);
 
+//MILESTONE 1:
+//Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+for (let i = 0; i < profilesArray.length; i++) {
+   for(let key in profilesArray[i]){
+    let thisObject = profilesArray[i];
+    console.log(thisObject.name,thisObject.mansion,thisObject.pic );   
+   } 
+}
+
 
